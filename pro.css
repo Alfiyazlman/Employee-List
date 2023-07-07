@@ -79,7 +79,9 @@
 }
 .Mainpage{
     flex: 1;
-    padding: 10px;
+}
+.page{
+    padding: 10px ;
 }
 .lefttop {
     flex: 1;
@@ -128,7 +130,7 @@
 }
 .container{
     border-radius: 20px;
-        background-color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
 }
 .Employeelist{
     padding-top: 20px;
@@ -205,8 +207,8 @@
     font-size: 9px;
 }
 .pagination{
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     justify-content: flex-end;
 }
 .list tbody i{
@@ -217,15 +219,16 @@
     background-color: #f0f1f2;
 }
 .footer{
+    border-top: 1px solid #0000002B;
     display: flex;
-    margin-left: 20px;
-    margin-right: 20px;
+    padding: 20px 10px;
 }
 .footer h6{
     color: #707EAE;
     font-size: 14px;
     font-weight: 500;
     line-height: 24px;
+    margin: 0;
     letter-spacing: -0.02em;
 }
 .footerleft{
