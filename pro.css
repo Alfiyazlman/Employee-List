@@ -209,3 +209,29 @@
     margin-bottom: 30px;
     justify-content: flex-end;
 }
+.list tbody i{
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+    color: #4318FF;
+    background-color: #f0f1f2;
+}
+.footer{
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.footer h6{
+    color: #707EAE;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+}
+.footerleft{
+    flex: 1;
+}
+.footerright{
+    display: flex;
+    gap: 20px;
+}
