@@ -224,7 +224,7 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-body">
-        <form id="save" class="col">
+        <form id="save" class="col" method="post" onsubmit="return loop()">
           <div class="bais">
             <h1 class="modal-title fs-5" id="exampleModalLabel">Add Employee</h1>
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -261,16 +261,6 @@
             </div>
             </div>
             <div class="row">
-              <div class="col">
-                <label for="exampleFormControlInput1" class="form-label">Email Address<span>*</span></label>
-                <input type="email" class="form-control" id="email" placeholder="mail@simmmple.com">                      
-              </div>
-              <div class="col">
-                  <label for="inputtel4" class="form-label">Mobile Number<span>*</span></label>
-                  <input type="tel" class="form-control" placeholder="enter mobile number" id="mobile">
-                </div>
-            </div>
-            <div class="row">
             <div class="col">
               <label for="inputtel4" class="form-label">Date of Birth<span>*</span></label>
               <input type="date" class="form-control" placeholder="select date of birth" id="birthday">
@@ -285,15 +275,32 @@
               </div>
             </div>
           </div>
-          <div class="row">
-           
+         <div class="row"> 
+          <div class="col">
+            <label for="inputtel4" class="form-label">Qualification<span>*</span></label>
+            <input type="text" class="form-control" placeholder="enter qualification" id="Qualifications">
           </div>
-          <div class="row">
-            <div class="col">
-                <label class="form-label" for="customFile">Qualifications<span>*</span></label>
-                <input type="text" class="form-control" id="Qualification" placeholder="enter qualifications" aria-label="Qualification">
+        </div> 
+        <div class="row">
+          <div class="col">
+            <label for="exampleFormControlInput1" class="form-label">Email Address<span>*</span></label>
+            <input type="email" class="form-control" id="email" placeholder="mail@simmmple.com">                      
+          </div>
+          <div class="col">
+              <label for="inputtel4" class="form-label">Mobile Number<span>*</span></label>
+              <input type="tel" class="form-control" placeholder="enter mobile number" id="mobile">
             </div>
         </div>
+        <div class="row">
+         <div class="col">
+          <label for="inputtel4"  class="form-label">Username<span>*</span></label>
+          <input type="username" class="form-control" id="Username" placeholder="ente username">
+         </div>
+          <div class="col">
+          <label for="inputPassword5" class="form-label">Password<span>*</span></label>
+          <input type="password" id="inputPassword5" class="form-control"  placeholder="enter password" aria-labelledby="passwordHelpBlock">
+          <div id="passwordHelpBlock" class="form-text"></div>
+    </div>
           <div class="row">
               <div class="col">
                   <label for="inputAddress" class="form-label">Address<span>*</span></label>
@@ -309,7 +316,7 @@
                   <option value="Bahrain">Bahrain</option>
                   <option value="Canada">Canada</option>
                   <option value="Denmark">Denmark</option>
-                  <option value="Egypt">Egypt</option>
+                  <option value="India">India</option>
                 </select>
           </div>
           <div class="col">
@@ -319,7 +326,7 @@
             <option value="Assam">Assam</option>
             <option value="Bihar">Bihar</option>
             <option value="Bombay">Bombay</option>
-            <option value="Uttar Pradesh">Uttar Pradesh</option>
+            <option value="Kerala">Kerala</option>
             <option value="Jammu and Kasnhmir">Jammu and Kasnhmir</option>
           </select>
       </div>

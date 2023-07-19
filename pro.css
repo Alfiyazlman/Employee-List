@@ -11,7 +11,7 @@
     padding: 0 !important;*/
     background-color: #f0f1f5;
     margin: auto;
-    max-width: 1900px; */
+    max-width: 1900px;
 } 
 .SideBar{
     position: fixed;
@@ -153,6 +153,7 @@
 .container .Employeelist .form-select{
     width: 60px;
     margin-right: 10px;
+    color: #38373b !important;
 }
 .container .Employeelist h6{
     flex: 1;
@@ -184,6 +185,7 @@
    letter-spacing: -0.02em;
    text-align: left;
    white-space:nowrap;
+   padding: 10px;
 }
 .container .list table th {
     color: #2B3674;
@@ -256,10 +258,6 @@ label{
     Size:14px;
     color: #949DB9;
 }
-/* form{
-    padding-top: 20px;
-    padding-bottom: 20px;
-} */
 .radio-inline{
     display: flex;
     gap: 7px;
@@ -285,7 +283,7 @@ span{
 }
 .card {
     padding: 25px;
-    border:2px dashed;
+    border:2px dashed rgb(224, 222, 222) !important;
     color: rgb(195, 200, 200);
     align-items: center;
 }
@@ -310,7 +308,7 @@ span{
 .form-select{
  font-Weight:400;
  Size:14px;
- color: #949DB9;   
+ color: #949DB9 !important;   
 font-size: 14px;
 }
 .form-control{
@@ -319,8 +317,11 @@ font-size: 14px;
 .form-control::placeholder{
     font-Weight:400;
     Size:14px;
-    color: #949DB9;
+    color: #949DB9 !important;
     font-size: 14px;
+}
+input#birthday.form-control{
+    color: #949DB9 
 }
 .checks{
     margin-top:6px;
@@ -339,6 +340,7 @@ font-size: 14px;
 .upload h6{
    font-size: 12px;
    font-weight: 500;
+   color: #949DB9 
 }
 .upload i{
     color: #4318FF;
@@ -497,22 +499,6 @@ font-size: 14px;
     box-shadow: 0px 18px 40px 0px #7090B01F !important;
 
 }
-
-/* =================== */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* =============================== */
 .modal-dialog{
     max-width: 800px !important;
